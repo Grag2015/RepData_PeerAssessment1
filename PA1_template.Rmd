@@ -101,7 +101,7 @@ ggplot(tmp, aes(x=stepsperday, fill=variant))+ geom_bar(position = "dodge")+ xla
 
 
 ##5. Differences in activity patterns between weekdays and weekends
-I create a new factor variable in the dataset with two levels вЂ“ вЂњweekdayвЂќ and вЂњweekendвЂќ indicating whether a given date is a weekday or weekend day.
+I create a new factor variable in the dataset with two levels "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.
 I use the dataset `df2` with the filled-in missing values for this part.
 ```{r}
 library(lubridate)
